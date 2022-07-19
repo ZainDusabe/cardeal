@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+    background-color: rgb(255, 255, 255);
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: visible;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+.topnav {
+  overflow: hidden;
+  width: 100%;
+  top: 0;
+  background-color: #0269bd;
+  position: fixed;
+  z-index: 1000 ;
+  
+}
+
+.topnav a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.topnav a:hover {
+  background-color: rgb(44, 43, 43);
+  color: rgb(240, 240, 240);
+  font-weight: 500;
+}
+
+.topnav a.active {
+  background-image: linear-gradient(to right,rgb(17, 139, 170),#0269bd);
+  color:#ffffff;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: kristen itc;
+}
+
+.topnav-right {
+  float: right;
+}
+
+
+
+
+
+.qoranpage{
+    top: 20em;
+    background-color: #ffffff;
+    height: 40em;
+    width: 100%;
+}
+.about{
+    margin-top: 80em;
+    background-color: #fefefe;
+    height: 40em;
+    width: 100%;
+    text-align: center;
+    color: #2b3030;
+    
+}
+.about pre{
+    font-size: 20px;
+    font-weight: 900;
+
+}
+
+.contactUs{
+    margin-top: 80em;
+    background-color: #fefefe;
+    height: 40em;
+    width: 100%;
+    text-align: center;
+    color: #2b3030;
+    
+}
+.contactUs pre{
+    font-size: 20px;
+    font-weight: 900;
+
+}
+
+.dawa{
+    top: 20em;
+    background-color: #ffffff;
+    height: 60em;
+    width: 100%;
+}
+.ibitabo{
+    top: 20em;
+    background-color: #ffffff;
+    height: 60em;
+    width: 100%;
+}
+
+
+
+
+</style>
+<link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body>
+
+<section class="header">
+<div class="topnav">
+  <a class="active" href="#">Car Dealer Group |</a>
+  <a href="#home" title="Ahabanza">Home</a>
+  <a href="#about" title="Abo turibo & nibyo dukora">About Us</a>
+  <a href="#contactUs" title="Mushobora kutwandikira munyuze hano">Contact Us</a>
+  <label>
+  <div id="google_translate_element"></div>
+  <script> 
+  function googleTranslateElementInit() {
+  
+    new google.translate.TranslateElement({
+  
+      pageLanguage: 'en'
+  
+    }, 'google_translate_element');
+  
+  }
+  
+  </script>
+  <script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script></label>
+  
+  <div class="topnav-right">
+    <a href="#search" onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Create Account</a>
+    <a href="#home" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</a>
+  </div>
+</div>
+</section>
+
+<div class="containerhome" id="home">
+    <div class="mySlides">
+      <div class="numbertext">1 / 5</div>
+      <img src="image/1.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">2 / 5</div>
+      <img src="image/2.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">3 / 5</div>
+      <img src="image/3.jpg" style="width:100%">
+    </div>
+      
+    <div class="mySlides">
+      <div class="numbertext">4 / 5</div>
+      <img src="image/4.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">5 / 5</div>
+      <img src="image/5.jpg" style="width:100%">
+    </div>
+      
+    <!-- <div class="mySlides">
+      <div class="numbertext">6 / 6</div>
+      <img src="img/img_snow_wide.jpg" style="width:100%">
+    </div> -->
+      
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+  
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+  
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="image/1.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="image/2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="image/3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="image/4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="image/5.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+      </div>    
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+<!--  KOR'ANI PART -->
+
+<!-- <br><br><br><br>
+<div class="qoranpage" id="qoranpage">
+uhiufhsdifhighjijgifhoid
+</div>
+
+<br><br><br><br>
+<div class="dawa" id="dawa">
+uhiufhsdifhighjijgifhoid
+</div>
+<br><br><br><br>
+<div class="ibitabo" id="ibitabo">
+uhiufhsdifhighjijgifhoid
+</div> -->
+
+<br><br><br><br><br><br><br>
+<div class="about" id="about">
+
+    <pre>
+
+
+
+          <p> We Car Dealer Group offer these service</p>
+    <ol> 
+      <li>Repair</li>
+        <li>Painting your Car</li>
+        <li>Car wash</li>
+        <li>Sell Brand New and Used Cars </li>
+    </ol> 
+  
+    <!-- Turi umuryango wa kisilamu ubereyeho guhamagarira abantu
+    kuva mubyaha bakubahiriza ubushake bwimana yonyine
+    maze aho gutwarwa nibyisi ahubwo bakayibera
+    abatware -->
+    </pre>
+
+
+</div>
+<br><br><br><br>
+<div class="contactUs" id="contactUs">
+        <pre>
+
+         <p>Twandikire</p>
+    E-mail:cardealergroup.rwanda@gmail.com
+          :info@cardealergroupkigali.rw.org
+    Phones:+250 780 440 523
+    Website:www.cardealergroup.com
+    Kigali City-Rwanda
+    P.O Box:2854 Kigali
+    </pre>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<!-- ACCOUNT PART -->
+
+
+<div id="id01" class="modal">
+  
+    <form class="modal-content animate" action="https://www.w3schools.com/action_page.php" method="post">
+      <div class="imgcontainer">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+        <img src="img/img_avatar2.png" alt="Avatar" class="avatar">
+      </div>
+  
+      <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+  
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+          
+        <button type="submit">Login</button>
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+      </div>
+  
+      <div class="container" style="background-color:#f1f1f1">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+      </div>
+    </form>
+</div>
+
+
+<div id="id02" class="modal1">
+    <!-- <span onclick="document.getElementById('id02').style.display='none'" class="close1" title="Close Modal">&times;</span> -->
+    <form class="modal-content animate" action="https://www.w3schools.com/action_page.php">
+      <div class="container">
+        <h1>Sign Up</h1>
+        <p>Create an account.</p>
+        <hr>
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required>
+  
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+  
+        <label for="psw-repeat"><b>Repeat Password</b></label>
+        <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+        
+        <label>
+          <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+        </label>
+  
+        <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+  
+        <div class="clearfix">
+          <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
+          <button type="submit" class="signupbtn">Sign Up</button>
+        </div>
+      </div>
+    </form>
+  </div>
+  
+
+
+<!-- JS for Login -->
+  <script>
+    // Get the modal
+    var modal = document.getElementById('id01');
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+    </script>
+
+
+
+<!-- JS for Register -->
+    <script>
+        // Get the modal
+        var modal1 = document.getElementById('id02');
+        
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            if (event.target == modal1) {
+                modal1.style.display = "none";
+            }
+        }
+        </script>
+
+
+<!-- JS for home pictures -->
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("demo");
+      var captionText = document.getElementById("caption");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+      captionText.innerHTML = dots[slideIndex-1].alt;
+    }
+    </script>
+        
+
+
+</body>
+
+
+</html>
